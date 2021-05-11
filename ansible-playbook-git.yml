@@ -1,0 +1,8 @@
+---
+ - name: creating files 
+   hosts: localhosts
+   tasks: 
+    - name: creating new files for git 
+      file: 
+       path: /home/ec2-user/newfile.txt
+       state: touch
