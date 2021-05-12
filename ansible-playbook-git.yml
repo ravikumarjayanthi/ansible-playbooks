@@ -1,6 +1,6 @@
 ---
  - name: creating files 
-   hosts: localhost
+   hosts: myclients
    tasks: 
     - name: creating new files for git 
       file: 
